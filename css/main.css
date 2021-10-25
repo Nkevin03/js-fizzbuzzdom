@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083b4c;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+}
+
+.boxs{
+    display: flex;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #1389b2;
+}
+
+.red{
+    background-color: #f0466f;
+}
+
+.yellow{
+    background-color: #ffd166;
+}
+
+.green{
+    background-color: #0bd6a1;
+}
